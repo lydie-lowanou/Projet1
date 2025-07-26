@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f6;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+}
+
+.login-box {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(220, 170, 200, 0.2);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+}
+
+    h1 {
+      margin-bottom: 30px;
+      color: #d26caa;
+}
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+}
+
+.login-button {
+      background-color: #d26caa;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+}
+
+.login-button:hover {
+      background-color: #c15598;
+}
+
+.links {
+      margin-top: 20px;
+}
+
+.links a {
+      color: #d26caa;
+      text-decoration: none;
+      font-size: 0.9em;
+}
+
+.links a:hover {
+      text-decoration: underline;
+}
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h1>Connexion 🔐</h1>
+    <form action="Index.html" method="POST">
+      <input type="email" placeholder="Adresse e-mail" required>
+      <input type="password" placeholder="Mot de passe" required>
+      <button type="submit" class="login-button">Se connecter</button>
+    </form>
+    <div class="links">
+      <p><a href="Mot de passe oublié.html">Mot de passe oublié?</a></p>
+      <p>Pas encore de compte? <a href="Inscription.html">Créer un compte</a></p>
+    </div>
+  </div>
+</body>
+</html>

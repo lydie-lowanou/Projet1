@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Bienvenue</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f6;
+      text-align: center;
+      padding: 100px 20px;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2em;
+      color: #d26caa;
+    }
+
+    .button-container {
+      margin-top: 40px;
+    }
+
+    a.button {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #d26caa;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #c15598;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenue dans notre boutique 💖</h1>
+  <p>Connectez-vous ou créez votre compte pour commencer votre shopping.</p>
+
+  <div class="button-container">
+    <a href="/connexion" class="button">Je me connecte</a>
+    <a href="/inscription" class="button">Je crée un compte</a>
+  </div>
+</body>
+</html>

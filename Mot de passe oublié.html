@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mot de passe oublié</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f6;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+}
+
+.reset-box {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(220, 170, 200, 0.2);
+      width: 100%;
+      max-width: 450px;
+      text-align: center;
+}
+
+    h1 {
+      margin-bottom: 30px;
+      color: #d26caa;
+}
+
+    input[type="email"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+}
+
+.reset-button {
+      background-color: #d26caa;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+      background-color: #c15598;
+}
+  </style>
+</head>
+<body>
+  <div class="reset-box">
+    <h1>Réinitialisez votre mot de passe 🔐</h1>
+    <form action="/reinitialisation-envoyee" method="POST">
+      <input type="email" placeholder="Entrez votre e-mail" required>
+      <button type="submit" class="reset-button">Envoyer le lien de réinitialisation</button>
+    </form>
+  </div>
+</body>
+</html>
